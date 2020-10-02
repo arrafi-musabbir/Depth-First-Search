@@ -19,8 +19,8 @@ with open("graph(cities).txt", "r") as f:
 a graph of cities have been initialized in dictionary "d"'
 the following commented out code can be used to display the elements of "d"
 '''
-for i in d:
-    print(i, ":", d[i])
+# for i in d:
+#     print(i, ":", d[i])
 
 
 def dfs(dic, Start, Goal):
