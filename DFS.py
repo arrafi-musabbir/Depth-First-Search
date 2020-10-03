@@ -4,7 +4,7 @@
  the graph in a dictionary
 '''
 
-with open("graph(cities).txt", "r") as f:
+with open("Depth-First-Search/graph(cities).txt", "r") as f:
     l1 = list()
     d = dict()
     for i in f:
@@ -24,6 +24,7 @@ the following commented out code can be used to display the elements of "d"
 
 
 def dfs(dic, Start, Goal):
+    print("Running Depth First Search")
     que = list()   # to be used as a queue
     path = list()  # to keep track of the visited nodes
     temp = Start
